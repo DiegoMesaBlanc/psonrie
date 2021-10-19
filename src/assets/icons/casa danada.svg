@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.122" height="48.929" viewBox="0 0 65.122 48.929">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #009dd6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="casa_danada" data-name="casa danada" transform="translate(0.5 0.5)">
+    <g id="Grupo_3" data-name="Grupo 3" transform="translate(0 0)">
+      <path id="Trazado_21" data-name="Trazado 21" class="cls-1" d="M66.96,43.365a4.146,4.146,0,0,1-5.9,0L57.6,39.895V53.378a2.786,2.786,0,0,1-2.782,2.791h-13.1l.7-15.855-8.622-4.366-.371-14.735L28.1,38.764l8.268,3.614L34.451,56.169H17.425a2.786,2.786,0,0,1-2.782-2.791V39.895l-3.459,3.471a4.179,4.179,0,0,1-5.9-5.92l8.658-8.687V13.249a.965.965,0,0,1,.963-.966h8.027a.964.964,0,0,1,.962.966v5.523l9.277-9.306a4.164,4.164,0,0,1,5.9,0L66.96,37.445A4.2,4.2,0,0,1,66.96,43.365Z" transform="translate(-4.061 -8.24)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8230e9;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_2" data-name="+2" transform="translate(0.32)">
+    <circle id="Elipse_226" data-name="Elipse 226" class="cls-1" cx="34" cy="34" r="34" transform="translate(-0.32)"/>
+    <g id="_" data-name="+" transform="translate(20 20)">
+      <path id="Unión_1" data-name="Unión 1" class="cls-2" d="M12.25,28V15.75H0v-3.5H12.25V0h3.5V12.25H28v3.5H15.75V28Z" transform="translate(-0.32)"/>
+    </g>
+  </g>
+</svg>

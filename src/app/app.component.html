@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <main style="min-height: 100vh;">
+    <!-- Alertas del sistema -->
+    <ul *ngIf="alertView" class="list-group position-absolute w-100" style="z-index: 9999;">
+      <li *ngFor="let showAlert of showAlerts" class="list-group-item p-1 border-0">
+        <div class="alert {{ showAlert.alertClass }} alert-dismissible fade show m-0" role="alert">
+          <strong>{{ showAlert.alertTitle }}!</strong> {{ showAlert.mssAlert }}.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </li>
+    </ul>
+
+
+    <div>
+      <!-- Variador de rutas -->
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

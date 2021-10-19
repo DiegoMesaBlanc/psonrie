@@ -1,0 +1,22 @@
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(20%);
+}
+
+.carousel-control-prev {
+  left: -2.1em;
+}
+
+.carousel-control-next {
+  right: -2.1em;
+}
+
+ol {
+  margin-bottom: -2em;
+}
+
+.carousel-indicators li {
+  width: 0.8em;
+  height: 0.8em;
+}
+

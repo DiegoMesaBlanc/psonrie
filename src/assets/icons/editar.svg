@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.2" height="21.029" viewBox="0 0 21.2 21.029">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #8230e9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="editar" transform="translate(0.75 0.75)">
+    <path id="Trazado_741" data-name="Trazado 741" class="cls-1" d="M11.735,6H4.941A1.941,1.941,0,0,0,3,7.941V21.529A1.941,1.941,0,0,0,4.941,23.47H18.529a1.941,1.941,0,0,0,1.941-1.941V14.735" transform="translate(-3 -3.941)"/>
+    <path id="Trazado_742" data-name="Trazado 742" class="cls-1" d="M22.191,3.421A2.059,2.059,0,0,1,25.1,6.333l-9.22,9.22L12,16.524l.971-3.882Z" transform="translate(-6.177 -2.818)"/>
+  </g>
+</svg>

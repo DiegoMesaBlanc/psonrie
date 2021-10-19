@@ -1,0 +1,24 @@
+<svg id="check" xmlns="http://www.w3.org/2000/svg" width="55.782" height="55.782" viewBox="0 0 55.782 55.782">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8230e9;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="button" transform="translate(55.782 55.782) rotate(180)">
+    <path id="bg" class="cls-1" d="M27.891,0A27.891,27.891,0,1,1,0,27.891,27.891,27.891,0,0,1,27.891,0Z"/>
+    <g id="icons_light_checkmark" data-name="icons/light/checkmark" transform="translate(15.146 15.473)">
+      <rect id="bg-2" data-name="bg" class="cls-2" width="26" height="25" transform="translate(0.394 0)"/>
+      <path id="check-1" class="cls-3" d="M1.332,4.91a.78.78,0,1,0-1.1,1.1L5.69,11.474a.78.78,0,0,0,1.1,0L16.935,1.332a.78.78,0,1,0-1.1-1.1L6.241,9.819Z" transform="translate(21.327 17.782) rotate(180)"/>
+    </g>
+  </g>
+</svg>

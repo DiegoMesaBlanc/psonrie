@@ -1,0 +1,21 @@
+<svg id="tel" xmlns="http://www.w3.org/2000/svg" width="38.647" height="38.647" viewBox="0 0 38.647 38.647">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: #757575;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <path id="Trazado_8" data-name="Trazado 8" class="cls-1" d="M-2-2H36.647V36.647H-2Z" transform="translate(2 2)"/>
+  <g id="Grupo_9" data-name="Grupo 9" transform="translate(3.221 3.221)">
+    <path id="Trazado_9" data-name="Trazado 9" class="cls-2" d="M20.324,1c8.409,0,12.882,5.965,12.882,12.882M20.324,8.611c3.981,0,5.856,2.335,5.856,5.856M9.669,13.886a22.091,22.091,0,0,0,10.5,10.5L22.7,22.515a1.742,1.742,0,0,1,1.785-.42,24.909,24.909,0,0,0,6.967,1.31,1.755,1.755,0,0,1,1.75,1.75v6.3a1.755,1.755,0,0,1-1.75,1.75C15.02,33.206,1,19.186,1,2.75A1.755,1.755,0,0,1,2.75,1h6.3A1.755,1.755,0,0,1,10.8,2.75,22.71,22.71,0,0,0,12.119,9.4a1.754,1.754,0,0,1-.437,1.785l-2.013,2.7Z" transform="translate(-1 -1)"/>
+  </g>
+</svg>

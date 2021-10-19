@@ -1,0 +1,47 @@
+/***************************** ESTILOS PROYECTO *****************************/
+// Colores blobales del proyecto
+:root {
+  
+}
+
+// Variable de colores
+$primary-color: #ec111a;
+$secondary-color: #8230e9;
+
+// Cambiar tema de bootstrap
+$theme-colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color,
+);
+@import "~bootstrap/scss/bootstrap";
+
+// Estilos scroll
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scrollbar-color: $secondary-color #ffffff;
+}
+::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.3em;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0.5em #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 1em $primary-color;
+}
+
+// Estilo de spinner
+.spinner-border:not(.noload) {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  vertical-align: text-bottom;
+  border: 0.7em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border 0.75s linear infinite;
+  animation: spinner-border 0.75s linear infinite;
+}
