@@ -1,27 +1,43 @@
-# PortalSelfManagement
+### PSONRIE
+El proyecto fue estructurado de la siguiente forma ya que es mas fácil  de manipular componentes
+y servicios dentro del proyecto simplemente copiando y pegando, y realizandolo una unica vez.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.10.
+Tenemos la estructura a continuación:
+* **Common** : Esta carpeta alojara los archivos "Utilities" para logicas y centralización de negocio. Adicional, tendra nuestro archivo de alertas que seran utilizadas para informar al usuario sobre procesos.
 
-## Development server
+* **Components** : Esta carpeta alojará todos los componentes globales que se utilizaran como el navbar, el footer, etc.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* **Models** : Acá guardaremos todos los modelos que se necesiten para interactuar con la aplicación y los servicios que
+se vayan a consumir.
 
-## Code scaffolding
+* **Modules** : Dentro de esta carpeta se crearan cada una de las vistas de negocio dependiendo del menu lateral o navbar
+el cual nos brindara la estructura de esta carpeta. Se crea una carpeta por cada opcion del menu; con su respectivo routing
+y module; esto puesto que mejora la interacción del usuario con cada vista. El routing dentro de cada uno es para una comunicación mas rápida y fácil de entender cuando un proyecto crece bastante. Por ultimo tendremos un modulo global que alojará todos los componentes hijos que se repetiran más de lo normal dentro del proyecto y tendremos que utilizarlos en varias vistas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* **Store** : En esta carpeta habra un store nos ayudará a tener un contenedor siempre disponible con todos los datos de la aplicación; esto porque normalmente, en una aplicación Angular tenemos varios servicios para mantener los datos, cuando la aplicación crece puede hacerse difícil conocer qué servicio es el que está realizando determinados cambios
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+### Pre-requisitos 📋
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Debera tener instalado:**
+* **Angular (Angular CLI)** : ^8.2.2
+* **Angular Framework**     : ^8.2.2
+* **NodeJS**                : v12.16.3
+* **npm**                   : 6.4.1
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Instalación 🔧
 
-## Further help
+Al momento de tener nuestro ambiente configurado y clonar nuestro codigo, ejecutamos en una ventana
+de comandos **npm install** para descargar nuestras dependencias. El portal despliegara por el puerto 4201.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Autores ✒️
+
+* **Diego Mesa** - *Desarrollo Front-end*
+
+
+## Expresiones de Gratitud 🎁
+
+* Invita una cerveza 🍺 a alguien del equipo.

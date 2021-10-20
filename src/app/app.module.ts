@@ -17,7 +17,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 // Modules
 import { AuthModule } from './modules/auth/auth.module';
 
-import { reducer } from './store/store.reducer';
+import { reducer, metaReducers } from './store/store.reducer';
 
 
 @NgModule({
@@ -33,7 +33,7 @@ import { reducer } from './store/store.reducer';
     AuthModule,
     HttpClientModule,
     FormsModule,
-    StoreModule.forRoot({ psycho: reducer }),
+    StoreModule.forRoot({ psycho: reducer }, { metaReducers }),
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ServiceInterceptor, multi: true }

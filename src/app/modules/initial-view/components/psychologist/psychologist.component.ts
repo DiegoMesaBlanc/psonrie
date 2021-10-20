@@ -1,10 +1,7 @@
 import { Psychologist } from './../../../../models/init/Psychologist';
 import { Component, OnInit } from '@angular/core';
-
 import { Observable } from 'rxjs';
-
-import { select, Store } from '@ngrx/store';
-
+import { Store } from '@ngrx/store';
 
 
 @Component({
@@ -22,7 +19,6 @@ export class PsychologistComponent implements OnInit {
     this.store.select('psycho').subscribe(data => {
       this.psycho = data;
     });
-    this.store.select(s => console.log(s))
   }
 
 }

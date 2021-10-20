@@ -9,11 +9,15 @@ import { Psychologist } from '../models/init/Psychologist';
 // Estado inicial
 const initialState: Psychologist = new Psychologist();
 
+const newState = (state, newData) => {
+  return Object.assign({}, state, newData)
+}
+
 
 export function reducer(state: Psychologist = initialState, action: StoreActions.Actions) {
   switch (action.type) {
     case ActionReducer.ADD_PSYCHO:
-      return action.payload;
+      return newState(state, action.payload);
       break;
 
     case ActionReducer.REMOVE_PSYCHO:
@@ -23,7 +27,10 @@ export function reducer(state: Psychologist = initialState, action: StoreActions
       break;
 
     default:
-      return action.payload;
+      return state;
       break;
   }
 }
+
+
+export const metaReducers: MetaReducer<any>[] = [];
