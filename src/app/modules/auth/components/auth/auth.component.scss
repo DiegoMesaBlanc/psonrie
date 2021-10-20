@@ -1,14 +1,7 @@
-// Quitar margen de <dl>
-dl {
-  margin-bottom: 0rem;
-}
-
-// Elevacion de header
 .shadow {
   box-shadow: 0 0.3rem 0.7rem 0 rgba(0, 40, 80, 0.11) !important;
 }
 
-// Estilos de focus para input
 .input-group > input:focus {
   box-shadow: none;
   -webkit-shadow: none;
@@ -17,33 +10,4 @@ dl {
   box-shadow: 0 4px 2px -2px var(--secondary-color);
   -webkit-box-shadow: 0 4px 2px -2px var(--secondary-color);
   -moz--box-shadow: 0 4px 2px -2px var(--secondary-color);
-}
-
-// Estilos de checkbox antes de ser seleccionado
-.custom-control-label::before {
-  transform: scale(1.35);
-  -ms-transform: scale(1.35); /* IE */
-  -moz-transform: scale(1.35); /* FF */
-  -webkit-transform: scale(1.35); /* Safari and Chrome */
-  -o-transform: scale(1.35); /* Opera */
-}
-.custom-control-label::after {
-  position: absolute;
-  top: -0.15em;
-  left: -1.75em;
-  display: block;
-  width: 1.6em;
-  height: 1.6em;
-  content: "";
-  background: no-repeat 50%/50% 50%;
-}
-.custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: var(--secondary-color);
-  background-color: var(--secondary-color);
-  transform: scale(1.35);
-  -ms-transform: scale(1.35); /* IE */
-  -moz-transform: scale(1.35); /* FF */
-  -webkit-transform: scale(1.35); /* Safari and Chrome */
-  -o-transform: scale(1.35); /* Opera */
 }

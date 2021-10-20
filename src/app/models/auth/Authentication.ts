@@ -2,6 +2,6 @@
 
 
 export class Authentication {
-  document: number;
+  username: number;
   password: string;
 }

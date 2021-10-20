@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 // Routing
 import { InitViewRoutingModule } from './init-view-routing.module';
 import { InitViewComponent } from './components/init-view/init-view.component';
+import { PsychologistComponent } from './components/psychologist/psychologist.component';
 
 // Components
 
@@ -12,7 +13,8 @@ import { InitViewComponent } from './components/init-view/init-view.component';
 
 @NgModule({
   declarations: [
-    InitViewComponent
+    InitViewComponent,
+    PsychologistComponent
   ],
   imports: [
     CommonModule,

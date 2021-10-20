@@ -1,0 +1,27 @@
+<div class="container">
+	<div>
+
+		<div class="row d-flex justify-content-center mx-md-5">
+			<div class="col-md-6 m-3">
+				<div class="card border-primary shadow p-3">
+					<div class="card-body">
+						<h2><span class="badge badge-primary">{{ psycho.name }}</span></h2>
+
+						<img [src]="psycho.imageURL" class="card-img-top rounded-circle" height="350" alt="...">
+
+						<article class="my-2">							
+							<span class="badge badge-pill badge-secondary p-2 m-1" *ngFor="let speciality of psycho.specialities">
+								{{ speciality }}
+							</span>
+						</article>
+
+						<article class="mt-4">
+							<p class="card-text"><small class="text-muted">{{ psycho.presentation }}</small></p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

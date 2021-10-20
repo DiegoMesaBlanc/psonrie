@@ -1,12 +1,12 @@
 /***************************** ESTILOS PROYECTO *****************************/
 // Colores blobales del proyecto
 :root {
-  
+  --secondary-color: #ffdb85;
 }
 
 // Variable de colores
-$primary-color: #ec111a;
-$secondary-color: #8230e9;
+$primary-color: #0088ad;
+$secondary-color: #ffdb85;
 
 // Cambiar tema de bootstrap
 $theme-colors: (
@@ -30,7 +30,7 @@ $theme-colors: (
   -webkit-box-shadow: inset 0 0 0.5em #ffffff;
 }
 ::-webkit-scrollbar-thumb {
-  -webkit-box-shadow: inset 0 0 1em $primary-color;
+  -webkit-box-shadow: inset 0 0 1em $secondary-color;
 }
 
 // Estilo de spinner

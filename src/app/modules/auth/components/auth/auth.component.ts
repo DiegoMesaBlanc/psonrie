@@ -4,8 +4,9 @@ import { Router } from '@angular/router';
 import { AppComponent } from './../../../../app.component';
 
 import { Authentication } from './../../../../models/auth/Authentication';
-import { Storage } from './../../../../models/utilities/Storage';
 import { Alerts } from './../../../../common/enums/Alerts';
+
+import { AuthService } from './../../services/auth/auth.service';
 
 
 @Component({
@@ -15,7 +16,7 @@ import { Alerts } from './../../../../common/enums/Alerts';
 })
 export class AuthComponent implements OnInit {
 
-  user = new Authentication();
+  user: Authentication = new Authentication();
 
   load: boolean = false;
 
@@ -23,7 +24,7 @@ export class AuthComponent implements OnInit {
   constructor(
     private _router: Router,
     private app: AppComponent,
-    private _storage: Storage
+    private authSrv: AuthService
   ) {
 
   }
@@ -38,14 +39,20 @@ export class AuthComponent implements OnInit {
   authUser() {
     this.load = true;
 
-    setTimeout(() => {
-      this.load = false;
-      
-      this.app.showAlert(Alerts.T_SUCCESS, Alerts.M_SUCCESS, Alerts.SUCCESS);
-      this._storage.setSession({ document: this.user.document });
+    this.authSrv.login(this.user)
+      .then(auth_res => {
+        if (auth_res.status == 200) {
+          this.load = false;
 
-      this._router.navigate(['/inicio']);
-    }, 1500);
+          this.app.showAlert(Alerts.T_SUCCESS, Alerts.M_SUCCESS, Alerts.SUCCESS);
+
+          this._router.navigate(['/inicio']);
+        }
+      })
+      .catch(err => {
+        this.load = false;
+        this.app.showAlert(Alerts.T_ERROR, Alerts.M_ERROR, Alerts.ERROR);
+      })
   }
 
 }

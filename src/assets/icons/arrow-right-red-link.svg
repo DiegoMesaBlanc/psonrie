@@ -1,7 +1,0 @@
-<svg id="icon-arrowright-32px" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path id="bounds" d="M0,0H32V32H0Z" fill="none"/>
-  <g id="Group_155" data-name="Group 155" transform="translate(30.222 3.556) rotate(180)">
-    <path id="Stroke_118" data-name="Stroke 118" d="M-10.667,0,0,10.667-10.667,21.333" transform="translate(0.602 -0.593) rotate(-180)" fill="none" stroke="#ED0722" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="Stroke_119" data-name="Stroke 119" d="M0,0H-27.259" transform="translate(0.602 -11.259) rotate(-180)" fill="none" stroke="#ED0722" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
-  </g>
-</svg>
